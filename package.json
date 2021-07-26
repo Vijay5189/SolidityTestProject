@@ -4,7 +4,7 @@
   "description": "solidity test projet",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/Vijay5189/SolidityTestProject#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "dotenv": "^10.0.0",
     "ganache-cli": "^6.12.2",
     "mocha": "^9.0.3",
     "solc": "^0.8.6",
+    "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.4.0"
   }
 }
