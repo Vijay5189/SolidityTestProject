@@ -1,0 +1,22 @@
+{
+  "name": "soliditytestproject",
+  "version": "1.0.0",
+  "description": "solidity test projet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vijay5189/SolidityTestProject.git"
+  },
+  "author": "vijay kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vijay5189/SolidityTestProject/issues"
+  },
+  "homepage": "https://github.com/Vijay5189/SolidityTestProject#readme",
+  "dependencies": {
+    "solc": "^0.8.6"
+  }
+}
