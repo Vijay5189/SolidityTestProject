@@ -1,5 +1,6 @@
 // Load environment variables.
 require("dotenv").config();
+const net = require('net');
 
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const Web3 = require("web3");
@@ -11,7 +12,7 @@ const provider = new HDWalletProvider({
   mnemonic: {
     phrase: mnemonicPhrase
   },
-  providerOrUrl: network
+  providerOrUrl: new Web3.providers.IpcProvider(network, net)
 });
 
 const web3 = new Web3(provider);
